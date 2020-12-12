@@ -62,11 +62,9 @@ h2{
 	margin-left:336px;
 	
 }
-h3{
-	margin:50;
-}
-
 h4{
+	position:absolute;
+	top:670px; left:300px; 
 	font: bold 22px Arial Black;
 	margin: 50px;
 	background-color: #F4F6F7;
@@ -76,20 +74,34 @@ h4{
 }
 
 h5{
+	position:absolute;
+	top:790px; left:73px; 
 	font: bold 16px Arial Black;
 	margin: 50px;
 }	
-
+.imin{
+	position:absolute;
+	top: 350px; left:px;
+}
 #imin{
 	border-radius:20px;
 	margin-left:50px;
 	height: 300px;
 	width: 450px;
 }
+.cita{
+	position: absolute;
+	top: 450px; left: 650px;	
+}
+.tabla{
+	position: absolute;
+	top: 1200px; left: 40px;
+}
+/*boton a wasap*/
 	
 #wasa{
 	position:absolute;
-	top:1400px; left:-450px; right:250px;
+	top:1500px; left:-450px; right:250px;
 	min-height: 50vh;
 	display: flex;
 	justify-content: center;
@@ -241,10 +253,11 @@ h5{
     transform: translateY(0);
   }
 }
+/*boton a instagram*/
 
 #inst{
 	position:absolute;
-	top:1520px; left:70px;
+	top:1620px; left:90px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
